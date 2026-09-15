@@ -1,8 +1,0 @@
-{
-  "$schema": "https://schema.railpack.com",
-  "provider": "python",
-  "deploy": {
-    "startCommand": "python xauusd_telegram_bot.py"
-  }
-}
-
