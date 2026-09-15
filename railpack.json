@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "packages": {
+    "python": "3.11"
+  },
+  "steps": {
+    "install": {
+      "commands": ["pip install -r requirements.txt"]
+    }
+  },
+  "deploy": {
+    "startCommand": "python xauusd_telegram_bot.py"
+  }
+}
